@@ -8,7 +8,7 @@ This project showcases an end-to-end data analysis of The Pie Pizzeria, where ra
 
 We need to analyize the key indicators for pizza sales data to gain insight into the business performance. Specifically, following metrics needs to be calculated:
 
-### 1. Total Revenue:### The sum of the total price of all pizza orders.
+### 1. Total Revenue: The sum of the total price of all pizza orders.
 
 ```sql
 select round(sum(total_price), 2) as Total_price
